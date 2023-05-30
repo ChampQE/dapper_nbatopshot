@@ -5,6 +5,6 @@ import MarketplacePage from "../support/pages/MarketplacePage"
   it("should be able add a moment to cart", () => {
     HomePage.visit();
     MarketplacePage.clickOnSelectandBuy("LeBron James{enter}")
-    HomePage.login(Cypress.env('email'), Cypress.env('password'))
+    HomePage.login(Cypress.env('email'), Cypress.env('password'){enter})
     MarketplacePage.confirmcart.should('exist')
  });
