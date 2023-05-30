@@ -13,7 +13,7 @@ The tests are commented to ease you to tell whih is one doing what at each step
 
 The steps below will take you all the way through Cypress installationa nd being able to run these 4 tests. 
 
-It is assumed you have nothing installed except for node + git. And make sure yu have created a dapper acccount onn www.nbatopshot.com
+It is assumed you have nothing installed except for node + git. 
 
 1. Install Cypress
 
@@ -34,4 +34,7 @@ cd dapper_nbatopshot
 ## To run the tests from terminal 
 npx cypress run 
 
+Folder Structure for POM
+Tests are under cyress/e2e
+Page objects are under support/pages
 
